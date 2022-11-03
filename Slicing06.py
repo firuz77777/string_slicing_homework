@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a = len(s)
+    d = a - n
+    q = s[-d:]
+    return q 
+print(main('jagcjg',2))

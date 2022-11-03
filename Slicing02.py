@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a = s[-4:]
+    return a
+print(main('12345'))

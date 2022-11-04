@@ -7,7 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    a = len(s)
-    q = a - n
-    w = s[q:]
-    return w
+    return s[0:-n]
+print(main('kmnkc',3))

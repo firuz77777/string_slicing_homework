@@ -6,4 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[-2::-2]
+print(main('92345'))
